@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- plugin -->
+    <link rel="stylesheet" href="WOW/css/animate.css">
+
+    <!-- CSS links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>BOOSTRAP-TEMPLATE</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+    
+            <div class="col-md-4">
+                <div class="wrapper">
+                    <h1 class="counter">50 </h1>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="wrapper">
+                    <h1 class="counter">60 </h1>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="wrapper">
+                    <h1 class="counter">70 </h1>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <section class="wow slideInLeft" data-wow-duration="4s" data-wow-delay="1s">
+        <div class="container">
+            <p class="pa">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero possimus eius ratione ipsam ullam deserunt, exercitationem qui aliquam voluptas sequi architecto, et enim. Reiciendis, harum ipsam. Quia voluptatibus cum, iste numquam ducimus fugit architecto inventore voluptates minima quisquam ipsum velit quod, pariatur eos enim beatae fuga vero rerum iusto debitis!
+            </p>
+        </div>
+    </section>
+
+     <!-- Slider -->
+     <section class="wow slideInRight" data-wow-duration="4s" data-wow-delay="2s">
+        <div class="container">
+            <p class="pa">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero possimus eius ratione ipsam ullam deserunt, exercitationem qui aliquam voluptas sequi architecto, et enim. Reiciendis, harum ipsam. Quia voluptatibus cum, iste numquam ducimus fugit architecto inventore voluptates minima quisquam ipsum velit quod, pariatur eos enim beatae fuga vero rerum iusto debitis!
+            </p>
+        </div>
+    </section>
+
+     <!-- Slider -->
+     <section class="wow slideInLeft" data-wow-duration="4s" data-wow-delay="3s">
+        <div class="container">
+            <p class="pa">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero possimus eius ratione ipsam ullam deserunt, exercitationem qui aliquam voluptas sequi architecto, et enim. Reiciendis, harum ipsam. Quia voluptatibus cum, iste numquam ducimus fugit architecto inventore voluptates minima quisquam ipsum velit quod, pariatur eos enim beatae fuga vero rerum iusto debitis!
+            </p>
+        </div>
+    </section>
+
+
+    <!-- js links -->
+    <script src="js/jquery.min.js"> </script>
+    <!-- Plugin -->
+
+    <script src="counter/waypoints.min.js"></script>
+    <script src="counter/jquery.counterup.min.js"></script>
+    <script src="WOW/js/wow.min.js"></script>
+    <!-- Plugin -->
+
+    <script src="js/popper.min.js"></script>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $('.counter').counterUp({
+            delay: 5,
+            time: 1000
+        });
+
+        });
+
+    </script>
+
+    <script>
+                  wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
+
+  </body>
+</html>
